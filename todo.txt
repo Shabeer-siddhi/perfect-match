@@ -1,0 +1,19 @@
+Profile Complete
+Galley images
+State, disreict, city
+
+Profile 
+    Details
+    Edit
+    Save
+
+Block
+Message
+    Send Message
+    View list
+    view Message
+
+Block Profile
+mark as spam
+Search
+Suggestions
