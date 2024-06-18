@@ -36,6 +36,8 @@
             }
         };
     </script>
+
+    @livewireStyles
 </head>
 
 <body id="app-container" class="{{ $body_class ?? 'show-spinner menu-sub-hidden' }}">
@@ -72,9 +74,12 @@
 
 
     @yield('footer')
+    @stack('scripts')
 
     <script src="{{ adminAsset('js/dore.script.js') }}"></script>
     <script src="{{ adminAsset('js/scripts.js') }}"></script>
+
+    @livewireScripts
 </body>
 
 </html>

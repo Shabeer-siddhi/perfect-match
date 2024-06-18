@@ -65,8 +65,8 @@ class CustomerController extends Controller
      */
     public function create()
     {
-        $attributes = CustomerAttribute::all()->groupBy('attribute_name');
-        return view('admin.customers.create', compact('attributes'));
+        // $attributes = 
+        return view('admin.customers.create');
     }
 
     /**
