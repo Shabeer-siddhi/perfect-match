@@ -24,6 +24,40 @@ class DatabaseSeeder extends Seeder
         // ]);
 
         CustomerAttribute::insert([
+
+            [
+                'attribute_name' => 'blood_group',
+                'attribute_value' => 'O+',
+            ],
+            [
+                'attribute_name' => 'blood_group',
+                'attribute_value' => 'O-',
+            ],
+            [
+                'attribute_name' => 'blood_group',
+                'attribute_value' => 'A+',
+            ],
+            [
+                'attribute_name' => 'blood_group',
+                'attribute_value' => 'A-',
+            ],
+            [
+                'attribute_name' => 'blood_group',
+                'attribute_value' => 'B+',
+            ],
+            [
+                'attribute_name' => 'blood_group',
+                'attribute_value' => 'B-',
+            ],
+            [
+                'attribute_name' => 'blood_group',
+                'attribute_value' => 'AB+',
+            ],
+            [
+                'attribute_name' => 'blood_group',
+                'attribute_value' => 'AB-',
+            ],
+
             // [
             //     'attribute_name' => 'religion',
             //     'attribute_value' => 'Hinduism',
@@ -48,81 +82,81 @@ class DatabaseSeeder extends Seeder
             //     'attribute_name' => 'religion',
             //     'attribute_value' => 'Judaism',
             // ],
-            [
-                'attribute_name' => 'cast',
-                'attribute_value' => 'Brahmin',
-                'data_type' => 'Hinduism'
-            ],
-            [
-                'attribute_name' => 'cast',
-                'attribute_value' => 'Kshatriya',
-                'data_type' => 'Hinduism'
-            ],
-            [
-                'attribute_name' => 'cast',
-                'attribute_value' => 'Vaishya',
-                'data_type' => 'Hinduism'
-            ],
-            [
-                'attribute_name' => 'cast',
-                'attribute_value' => 'Shudra',
-                'data_type' => 'Hinduism'
-            ],
-            [
-                'attribute_name' => 'cast',
-                'attribute_value' => 'Nair',
-                'data_type' => 'Hinduism'
-            ],
-            [
-                'attribute_name' => 'cast',
-                'attribute_value' => 'Ezhava',
-                'data_type' => 'Hinduism'
-            ],
-            [
-                'attribute_name' => 'cast',
-                'attribute_value' => 'Thiyya',
-                'data_type' => 'Hinduism'
-            ],
-            [
-                'attribute_name' => 'cast',
-                'attribute_value' => 'Sunni',
-                'data_type' => 'Islam'
-            ],
-            [
-                'attribute_name' => 'cast',
-                'attribute_value' => 'Mujahid',
-                'data_type' => 'Islam'
-            ],
-            [
-                'attribute_name' => 'cast',
-                'attribute_value' => 'Jamaat',
-                'data_type' => 'Islam'
-            ],
-            [
-                'attribute_name' => 'cast',
-                'attribute_value' => 'Rauther',
-                'data_type' => 'Islam'
-            ],
-            [
-                'attribute_name' => 'cast',
-                'attribute_value' => 'Mappila',
-                'data_type' => 'Islam'
-            ],
-            [
-                'attribute_name' => 'cast',
-                'attribute_value' => 'Protestant',
-                'data_type' => 'Christianity'
-            ],
-            [
-                'attribute_name' => 'cast',
-                'attribute_value' => 'Catholic',
-                'data_type' => 'Christianity'
-            ],
-            [
-                'attribute_name' => 'cast',
-                'attribute_value' => 'Syrian Orthodox',
-                'data_type' => 'Christianity'
-            ],
+            // [
+            //     'attribute_name' => 'cast',
+            //     'attribute_value' => 'Brahmin',
+            //     'data_type' => 'Hinduism'
+            // ],
+            // [
+            //     'attribute_name' => 'cast',
+            //     'attribute_value' => 'Kshatriya',
+            //     'data_type' => 'Hinduism'
+            // ],
+            // [
+            //     'attribute_name' => 'cast',
+            //     'attribute_value' => 'Vaishya',
+            //     'data_type' => 'Hinduism'
+            // ],
+            // [
+            //     'attribute_name' => 'cast',
+            //     'attribute_value' => 'Shudra',
+            //     'data_type' => 'Hinduism'
+            // ],
+            // [
+            //     'attribute_name' => 'cast',
+            //     'attribute_value' => 'Nair',
+            //     'data_type' => 'Hinduism'
+            // ],
+            // [
+            //     'attribute_name' => 'cast',
+            //     'attribute_value' => 'Ezhava',
+            //     'data_type' => 'Hinduism'
+            // ],
+            // [
+            //     'attribute_name' => 'cast',
+            //     'attribute_value' => 'Thiyya',
+            //     'data_type' => 'Hinduism'
+            // ],
+            // [
+            //     'attribute_name' => 'cast',
+            //     'attribute_value' => 'Sunni',
+            //     'data_type' => 'Islam'
+            // ],
+            // [
+            //     'attribute_name' => 'cast',
+            //     'attribute_value' => 'Mujahid',
+            //     'data_type' => 'Islam'
+            // ],
+            // [
+            //     'attribute_name' => 'cast',
+            //     'attribute_value' => 'Jamaat',
+            //     'data_type' => 'Islam'
+            // ],
+            // [
+            //     'attribute_name' => 'cast',
+            //     'attribute_value' => 'Rauther',
+            //     'data_type' => 'Islam'
+            // ],
+            // [
+            //     'attribute_name' => 'cast',
+            //     'attribute_value' => 'Mappila',
+            //     'data_type' => 'Islam'
+            // ],
+            // [
+            //     'attribute_name' => 'cast',
+            //     'attribute_value' => 'Protestant',
+            //     'data_type' => 'Christianity'
+            // ],
+            // [
+            //     'attribute_name' => 'cast',
+            //     'attribute_value' => 'Catholic',
+            //     'data_type' => 'Christianity'
+            // ],
+            // [
+            //     'attribute_name' => 'cast',
+            //     'attribute_value' => 'Syrian Orthodox',
+            //     'data_type' => 'Christianity'
+            // ],
         ]);
 
 

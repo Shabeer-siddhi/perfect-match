@@ -107,12 +107,6 @@
                                                 @endif
                                             </td>
                                             <td>
-                                                <a href="{{ route('admin.customer.show', $customer) }}"
-                                                    class="btn btn-primary d-inline-flex fz18" data-toggle="tooltip"
-                                                    data-placement="top" title=""
-                                                    data-original-title="View Customer">
-                                                    <i class="simple-icon-eye"></i>
-                                                </a>
                                                 <a href="{{ route('admin.customer.edit', $customer) }}"
                                                     class="btn btn-secondary d-inline-flex fz18" data-toggle="tooltip"
                                                     data-placement="top" title=""

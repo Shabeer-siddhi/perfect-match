@@ -256,6 +256,9 @@ class AuthController extends Controller
             'sign_up_method' => 'local',
             'profile_image' => $image_name,
             'blood_group' => $request->blood_group,
+            'state_id' => 0,
+            'city_id' => 0,
+            'district_id' => 0,
         ]);
 
         $customer_details->update([
